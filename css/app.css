@@ -84,7 +84,7 @@ body {
 }
 
 .container-sm {
-    width: 1000px;
+    width: 1048px;
     margin: 0 auto;
 }
 
@@ -99,7 +99,7 @@ body {
 button {
     border: 0;
     background-color: transparent;
-    padding: 5px 10px;
+    padding: 10px;
 }
 
 .bg-blue {
@@ -110,16 +110,25 @@ button {
     color: white;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 /* HEADER */
 
+header .container-lg {
+    
+}
+
 header .row {
-    height: 80px;
+    
     justify-content: space-between;
     align-items: center;
     padding: 0 12px;
 }
 
 .header-logo, .header-login {
+    padding: 20px 0;
     gap: 30px;
     align-items: center;
 }
@@ -146,6 +155,21 @@ header .row {
 
 .hero-title, .hero-bottom .row {
     padding-top: 30px;
+}
+
+/* PLANE */
+
+.plane-title {
+    padding-bottom: 30px;
+    padding-top: 50px;
+    
+}
+
+
+
+.invoice {
+    padding: 50px 0;
+    gap: 30px;
 }
 
 
