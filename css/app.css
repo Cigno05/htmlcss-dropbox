@@ -124,6 +124,30 @@ header .row {
     align-items: center;
 }
 
+/* HERO */
+
+.hero {
+    background-color: #B4D0E7;
+}
+
+.hero h1 {
+    font-size: 90px;
+}
+
+.hero-bottom .col-5 {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon-row-down {
+    font-size: 40px;
+    margin-top: auto;
+}
+
+.hero-title, .hero-bottom .row {
+    padding-top: 30px;
+}
+
 
 
 
