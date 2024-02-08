@@ -72,3 +72,89 @@ body {
 }
 
 /* UTILITIES */
+
+.container-lg {
+    width: 100%;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+
+}
+
+.container-sm {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+.bg-blue {
+    background-color: #0061FF;
+}
+
+.text-white {
+    color: white;
+}
+
+/* HEADER */
+
+header .row {
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.header-logo, .header-login {
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug [class^="container"] {
+    border: 2px solid black;
+}
+
+.debug .row {
+    border: 2px solid red;
+}
+
+.debug [class^="col"] {
+    border: 2px solid green;
+}
