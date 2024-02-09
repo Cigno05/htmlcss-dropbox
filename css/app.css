@@ -74,6 +74,8 @@ body {
 
 /* UTILITIES */
 
+
+
 .container-lg {
     width: 100%;
 }
@@ -97,10 +99,15 @@ body {
     flex-wrap: wrap;
 }
 
+section {
+    margin-top: 60px;
+}
+
 button {
     border: 0;
     background-color: transparent;
     padding: 10px;
+    font-size: 18px;
 }
 
 .bg-blue {
@@ -121,6 +128,10 @@ h2 {
 
 h3 {
     font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 /* HEADER */
@@ -164,18 +175,24 @@ header .row {
     padding-top: 30px;
 }
 
+.hero h4 {
+    font-weight: 400;
+}
+
 /* PLANE */
 
-.plane-title {
-    padding-bottom: 30px;
-    padding-top: 50px;
+
+
+.plane-title, .invoice {
+    padding: 50px 24px 10px 24px;
     
 }
 
 .invoice {
-    padding: 50px 0;
     gap: 30px;
 }
+
+
 
 .plane [class^="col"] {
     padding: 0 25px;
@@ -183,11 +200,10 @@ header .row {
     flex-direction: column;
 }
 
-/* .plane-business [class^="col"] {
-    padding: 0 25px;
-    padding-bottom: 40px;
-    flex-direction: column;
-} */
+.plane-business {
+    margin-top: 30px;
+}
+
 .card {
     border: 2px solid lightgray;
     padding: 10px 24px 10px 24px;
@@ -287,6 +303,25 @@ header .row {
 .contact-us button {
     width: 100%;
     
+}
+
+/* PARTNER */
+
+
+.partner [class^="col"] {
+    padding: 0 24px;
+}
+
+.partner .col-5 {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.partner button {
+    border: 2px solid gray;
+    
+
 }
 
 
