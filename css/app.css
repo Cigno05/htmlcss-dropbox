@@ -24,6 +24,7 @@ ol {
 body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
 }
 
 /* LAYOUT */
@@ -110,8 +111,16 @@ button {
     color: white;
 }
 
+h1 {
+    font-size: 90px;
+}
+
 h2 {
     font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 /* HEADER */
@@ -139,9 +148,7 @@ header .row {
     background-color: #B4D0E7;
 }
 
-.hero h1 {
-    font-size: 90px;
-}
+
 
 .hero-bottom .col-5 {
     flex-direction: column;
@@ -165,12 +172,126 @@ header .row {
     
 }
 
-
-
 .invoice {
     padding: 50px 0;
     gap: 30px;
 }
+
+.plane [class^="col"] {
+    padding: 0 25px;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+
+/* .plane-business [class^="col"] {
+    padding: 0 25px;
+    padding-bottom: 40px;
+    flex-direction: column;
+} */
+.card {
+    border: 2px solid lightgray;
+    padding: 10px 24px 10px 24px;
+    flex-grow: 1;
+}
+
+.plane-type {
+    
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid lightgray;
+    border-bottom: none;
+}
+
+.single img {
+    width: 15px;
+}
+
+.team img {
+    width: 20px;
+}
+
+.agency img {
+    width: 12px;
+}
+
+.plane-period {
+    color: gray;
+}
+
+.plane-fuction {
+    
+    margin: 30px 0 50px 12px;
+}
+
+.list-fuction li {
+    margin-bottom: 10px;
+}
+
+.list-fuction li.list-user { 
+    background:url(../img/user-solid.svg) no-repeat 0 3px;
+    padding-left:30px;
+    background-size: 15px;
+    
+}
+
+.list-fuction li.list-byte { 
+    background:url(../img/folder-solid.svg) no-repeat 0 3px;
+    padding-left:30px;
+    background-size: 15px;
+}
+
+.list-fuction li.list-share { 
+    background:url(../img/share-nodes-solid.svg) no-repeat 0 3px;
+    padding-left:30px;
+    background-size: 15px;
+    
+}
+
+
+.try-free-bt button{
+    width: 100%;
+}
+
+.buy-now {
+    padding: 50px 0;
+    border-bottom: 2px solid lightgray;
+}
+
+.buy-now h4 {
+    font-weight: 300;
+}
+.buy-now a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.sailent, .sailent-list {
+    margin-top: 50px;
+}
+
+
+
+.sailent-list li {
+    background: url(../img/check-solid.svg) no-repeat 0 -5px;
+    background-size: 20px;
+    padding-left:30px;
+    margin-bottom: 10px;
+}
+ .plane-title {
+    padding-top: 40px;
+ }
+.contact-us {
+    padding-top: 40px;
+}
+
+.contact-us button {
+    width: 100%;
+    
+}
+
+
+
+
 
 
 
