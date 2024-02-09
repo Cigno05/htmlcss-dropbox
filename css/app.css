@@ -100,7 +100,7 @@ body {
 }
 
 section {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 button {
@@ -123,7 +123,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3 {
@@ -134,11 +134,11 @@ h4 {
     font-size: 20px;
 }
 
+
+
 /* HEADER */
 
-header .container-lg {
-    
-}
+
 
 header .row {
     
@@ -157,6 +157,7 @@ header .row {
 
 .hero {
     background-color: #B4D0E7;
+    margin-top: 0;
 }
 
 
@@ -204,7 +205,7 @@ header .row {
     margin-top: 30px;
 }
 
-.card {
+.card-plane {
     border: 2px solid lightgray;
     padding: 10px 24px 10px 24px;
     flex-grow: 1;
@@ -320,11 +321,45 @@ header .row {
 
 .partner button {
     border: 2px solid gray;
-    
+
+}
+
+/* OPERATION */
+
+
+
+.operation [class^="col"] {
+    padding: 0 24px;
+}
+
+
+.card-operation * {
+    padding-bottom: 20px;
+}
+
+.card-operation img {
+    padding-top: 20px;
 
 }
 
 
+
+/* TEAM */
+
+.team .container-sm {
+    padding: 0 24px;
+}
+
+.team a {
+    font-weight: 400;
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.team h2 {
+    margin-bottom: 30px;
+}
 
 
 
