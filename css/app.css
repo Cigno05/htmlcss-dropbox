@@ -114,6 +114,10 @@ button {
     background-color: #0061FF;
 }
 
+.bg-white {
+    background-color:white;
+}
+
 .text-white {
     color: white;
 }
@@ -420,6 +424,22 @@ header .row {
 
 .card-sponsor-central p {
     margin-top: 48px;
+}
+
+/* FREE TRY */
+
+.free-try {
+    background-color: #B4D0E7;
+}
+
+.free-try .row {
+    padding: 120px 24px;
+    color: #61082B;
+}
+
+.free-try .try-free-bt {
+    margin: 0 auto;
+    width: 75%;
 }
 
 
