@@ -22,9 +22,9 @@ ol {
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 40px;
+    
 }
 
 /* LAYOUT */
@@ -85,13 +85,15 @@ body {
 }
 
 .container {
-    width: 1220px;
+    max-width: 1220px;
+    width: 100%;
     margin: 0 auto;
 
 }
 
 .container-sm {
-    width: 1048px;
+    max-width: 1048px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -170,11 +172,20 @@ header .row {
 
 
 
-.hero-bottom .col-5 {
+.hero-bottom .col-3 {
     flex-direction: column;
     gap: 30px;
+    padding-top: 80px;
 }
 
+.hero-bottom .col-9 {
+    position: relative;
+}
+
+.hero-bottom .col-9 img {
+    position: relative;
+    bottom: -80px;
+}
 .icon-row-down {
     font-size: 40px;
     margin-top: auto;
@@ -190,15 +201,18 @@ header .row {
 
 /* PLANE */
 
-
-
-.plane-title, .invoice {
+.col-12.plane-title {
     padding: 50px 24px 10px 24px;
+}
+
+.card-plane .plane-title {
+    padding: 50px 24px 10px 0;
     
 }
 
 .invoice {
     gap: 30px;
+    padding: 50px 24px 10px 24px;
 }
 
 
@@ -225,6 +239,10 @@ header .row {
     padding: 10px 0;
     border: 2px solid lightgray;
     border-bottom: none;
+}
+
+.plane-period {
+    font-weight: 300;
 }
 
 .single img {
@@ -292,6 +310,7 @@ header .row {
 
 .buy-now h4 {
     font-weight: 300;
+    font-size: 16px;
 }
 .buy-now a {
     text-decoration: underline;
@@ -302,15 +321,16 @@ header .row {
     margin-top: 30px;
 }
 
-
-
-.sailent-list li {
-    background: url(../img/check-solid.svg) no-repeat 0 -5px;
-    background-size: 20px;
-    padding-left:30px;
-    margin-bottom: 10px;
-    
+.sailent-list img {
+    width: 20px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    filter: invert(30%) sepia(75%) saturate(6476%) hue-rotate(214deg) brightness(102%) contrast(105%);
 }
+.sailent-list li {
+    padding: 10px 0;
+}
+
 
 
  .plane-title {
@@ -397,10 +417,11 @@ header .row {
 .sponsor-icon {
     filter: invert(100%) sepia(0%) saturate(7490%) hue-rotate(176deg) brightness(107%) contrast(98%);
 }
-/* .university-logo {
-    height: 60px;
-    
-} */
+
+.card-sponsor-central {
+    aspect-ratio: 1/1;
+    overflow: auto;
+}
 
 
 .designit {
@@ -550,20 +571,3 @@ header .row {
 
 
 
-/* DEBUG */
-
-.debug [class^="container"] {
-    border: 2px solid black;
-}
-
-.debug .row {
-    border: 2px solid red;
-}
-
-.debug [class^="col"] {
-    border: 2px solid green;
-}
-
-.debug [class^="card"] {
-    border: 2px solid purple;
-}
