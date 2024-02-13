@@ -144,7 +144,39 @@ h4 {
     font-size: 20px;
 }
 
+.animation-blur {
+    animation-name: blur-img;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
 
+@keyframes blur-img {
+    from {
+        filter: blur(50px);
+    }
+    to {
+        filter: blur(0);
+    }
+}
+
+.icon-row-down i {
+    animation-name: icon-down;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes icon-down {
+    0% {
+		transform: translateY(0px);
+	}
+	25% {
+		transform: translateY(-50px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
 
 /* HEADER */
 
@@ -198,6 +230,8 @@ header .row {
 .hero h4 {
     font-weight: 400;
 }
+
+
 
 /* PLANE */
 
@@ -363,6 +397,8 @@ header .row {
 
 }
 
+
+
 /* OPERATION */
 
 
@@ -381,7 +417,16 @@ header .row {
 
 }
 
+.operation [class^="col"] {
+    border: 1px solid transparent;
 
+}
+
+.operation [class^="col"]:hover {
+    border: 1px solid #005FFA;
+    border-radius: 5px;
+
+}
 
 /* TEAM */
 
@@ -472,6 +517,10 @@ header .row {
 
 .card-sponsor-central p {
     margin-top: 36px;
+}
+
+.card-sponsor > img:hover {
+    transform: scale(1.5);
 }
 
 /* FREE TRY */
