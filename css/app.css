@@ -200,24 +200,25 @@ header .row {
 .hero {
     background-color: #B4D0E7;
     margin-top: 0;
+}    
+
+.hero .row {
+    
+
 }
-
-
 
 .hero-bottom .col-3 {
     flex-direction: column;
     gap: 30px;
-    padding-top: 80px;
+    padding-top: 30px;
+    
 }
 
 .hero-bottom .col-9 {
-    position: relative;
+    padding-top: 30px;
+    margin-bottom: -50px;
 }
 
-.hero-bottom .col-9 img {
-    position: relative;
-    bottom: -80px;
-}
 .icon-row-down {
     font-size: 40px;
     margin-top: auto;
